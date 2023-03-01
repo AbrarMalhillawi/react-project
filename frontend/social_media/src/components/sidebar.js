@@ -10,28 +10,17 @@ const Sidebar = () => {
             <ul className="naves">
               <li>
                 <i className="ti-files" />
-                <a href="fav-page.html" title>My Group</a>
-              </li>
-              <li> 
-                <i className="ti-user" />
-                <a href="timeline-friends.html" title>friends</a>
+                <a href="/Groups" title>My Group</a>
               </li>
               <li> 
                 <i className="ti-user" />
                 <Link to={"/findfriends"}>find friends</Link>
                 
               </li>
-              <li>
-                <i className="ti-comments-smiley" />
-                <a href="messages.html" title>Messages</a>
-              </li>
-              <li>
-                <i className="ti-bell" />
-                <a href="notifications.html" title> Reqiset Frind</a>
-              </li>
+
               <li>
                 <i className="ti-power-off" />
-                <a href="landing.html" title>Logout</a>
+                <a href="/login" title>Logout</a>
               </li>
             </ul>
           </div>{/* Shortcuts */}

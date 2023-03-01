@@ -2002,6 +2002,7 @@ li.post-comment .comet-avatar {
     margin-top: 20px;
     max-height: 450px;
     position: relative;
+    /* box-shadow: 10px 10px 5px rgb(135, 84, 76); */
 }
 
 #people-list figure {
